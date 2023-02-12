@@ -3,10 +3,9 @@
 
 # Web sites
   * Github Diagrams <br>
-      Online diagram <br>
-      ```
-      https://mermaid.live
-      ``` 
+    ```
+    https://mermaid.live
+    ``` 
 
   * Entity-Relationship Diagrams <br>
     ```
