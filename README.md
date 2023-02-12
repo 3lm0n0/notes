@@ -5,8 +5,8 @@
   Github Diagrams <br>
     https://mermaid.live
 
-  Entity-Relationship Diagrams
+  Entity-Relationship Diagrams <br>
     https://dbdiagram.io/home
 
-  Online in One Line
+  Online in One Line <br>
     https://ngrok.com/
