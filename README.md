@@ -4,7 +4,11 @@
 # Web sites
   Github Diagrams <br>
     ```
+    Online diagram
     https://mermaid.live
+    
+    Manual
+    https://github.com/mermaid-js/mermaid
     ```
 
   Entity-Relationship Diagrams <br>
