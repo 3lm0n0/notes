@@ -2,7 +2,7 @@
 
 
 # Web sites
-  Github Diagrams
+  Github Diagrams <br>
     https://mermaid.live
 
   Entity-Relationship Diagrams
