@@ -7,10 +7,6 @@
       ```
       https://mermaid.live
       ``` 
-      How to use it <br>
-      ```
-      https://github.com/mermaid-js/mermaid
-      ```
 
   * Entity-Relationship Diagrams <br>
     ```
