@@ -135,6 +135,7 @@ export PATH=$(go env GOPATH)/bin:$PATH
 export GOPRIVATE=github.com/mercadolibre/*,github.com/melisource/*
 ```
 
+### Bash
 ```bash
 #!/bin/bash
 
@@ -149,4 +150,25 @@ cd ./mnt/c/EDF/
 
 # Puedes agregar más comandos aquí
 echo "El archivo .bashrc ha sido recargado y se ha cambiado al directorio /mnt/c/EDF/"
+```
 
+Para mostrar la rama de Git entre paréntesis en el prompt de la consola en Visual Studio Code, puedes modificar la función y el prompt de la siguiente manera:
+
+Abre tu archivo .bashrc (o .zshrc si usas Zsh) en tu directorio de usuario:
+```
+nano ~/.bashrc
+```
+Agrega la siguiente función para obtener la rama de Git actual:
+```
+parse_git_branch() {
+    git branch 2>/dev/null | grep '*' | sed 's/* \(.*\)/ (\1)/'
+}
+```
+Actualiza el prompt para incluir la rama de Git entre paréntesis. Añade esta línea al final del archivo .bashrc:
+```
+export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
+```
+Guarda los cambios y recarga el archivo .bashrc con el siguiente comando:
+```
+source ~/.bashrc
+```
