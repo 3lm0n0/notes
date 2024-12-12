@@ -135,3 +135,18 @@ export PATH=$(go env GOPATH)/bin:$PATH
 export GOPRIVATE=github.com/mercadolibre/*,github.com/melisource/*
 ```
 
+```bash
+#!/bin/bash
+
+# Este script recarga el archivo .bashrc
+source ~/.bashrc
+
+# Cambiar al directorio raíz
+cd /
+
+# Cambiar al directorio /mnt/c/EDF/
+cd ./mnt/c/EDF/
+
+# Puedes agregar más comandos aquí
+echo "El archivo .bashrc ha sido recargado y se ha cambiado al directorio /mnt/c/EDF/"
+
