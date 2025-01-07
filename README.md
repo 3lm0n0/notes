@@ -34,7 +34,7 @@
 
 - **Username:** ext_pebidogg
 - **Email:** ext_pebidogg@mercadolivre.com
-- **Password:** Cl4v3d3m13rd4@12
+- **Password:** Cl4v3d3m13rd4+12
 - **PIN:** 2205870522
 
 ### Base de Datos Local
